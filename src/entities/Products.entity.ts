@@ -11,7 +11,6 @@ export class Products extends BaseEntity {
   id: string;
 
   @Column({
-    unique: true,
     type: "text",
   })
   name: string;
