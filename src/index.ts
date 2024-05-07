@@ -1,10 +1,10 @@
 import { connection } from "./datasource/datasource";
 import express from "express";
+import { getProductsRouter } from "../src/routes/get_products";
+import { getGroceryRouter } from "../src/routes/get_grocery";
+import { updateGroceryRouter } from "../src/routes/update_grocery";
 import { deleteGroceryRouter } from "./routes/delete_grocery";
 import "dotenv/config";
-import { getProductsRouter } from "./routes/get_products";
-import { updateGroceryRouter } from "./routes/update_grocery";
-import { getGroceryRouter } from "./routes/get_grocery";
 
 const app = express();
 
