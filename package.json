@@ -7,7 +7,7 @@
     "dev": "nodemon --watch './**/*.ts' --exec 'ts-node' src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
-    "start:prod": "node dist/index.js"
+    "start:prod": "node src/index.ts"
   },
   "keywords": [],
   "author": "",
