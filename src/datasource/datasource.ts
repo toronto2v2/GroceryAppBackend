@@ -13,4 +13,5 @@ export const connection = new DataSource({
   logging: true,
   entities: [Products, Grocery],
   synchronize: true,
+  ssl: true,
 });
